@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web 2</title>
+</head>
+<body>
+    <h1>Pemrograman Web</h1>
+    <br>
+    <img src="WIN_20250217_19_40_14_Pro.jpg" alt="anak-alim" width="50">
+
+    <br>
+
+    <p>klik<a href="http://127.0.0.1:3000/register.html"> sini </a>untuk melihat gambar</p>
+
+    <table border="1" cellspacing="0" cellpadding="9">
+        <tr>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Data</th>
+        </tr>
+        <tr>
+            <th>Npm</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>Imam Rifai</td>
+            <td>2317051093</td>
+            <td>Ilmu Komputer</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form action="http://127.0.0.1:3000/register.html" method="POST">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="user" required>
+
+        <br>
+        <br>
+
+        <input type="radio" name="gender" id="male" required>
+        <label for="male">Laki-laki</label>
+
+        <input type="radio" name="gender" id="female" required>
+        <label for="male">Perempuan</label>
+
+        <br>
+
+        <input type="checkbox" name="remember" id="remember" required>
+        <label for="remember">remember me</label>
+
+        <br>
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
